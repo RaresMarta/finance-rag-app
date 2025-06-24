@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+.env
+.venv/
+*.log
+
+# VSCode
+.vscode/
+
+# Model & DB
+llm_model/
+chroma_db/
+
+# Temp files
+*.tmp
+*.temp
+*.bak

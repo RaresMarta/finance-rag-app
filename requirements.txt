@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain_community
+llama-cpp-python
+pandas
+requests
+certifi
+chromadb
+pypdf
+python-docx
