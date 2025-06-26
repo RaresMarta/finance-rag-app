@@ -10,11 +10,15 @@ A Retrieval-Augmented Generation (RAG) app using LangChain and LLama.cpp to answ
 - LLama.cpp local inference
 
 ## 📁 File Structure
-- `main.py`: Streamlit front-end
-- `config.py`: Configuration constants
-- `local_data_sources/`: Example documents
-- `llm_model/`: Path for LLaMA model (excluded from repo)
-- `chroma_db/`: Chroma DB (excluded from repo)
+| File / Folder         | Description                               |
+|----------------------|-------------------------------------------|
+| `main.py`            | Full app logic                            |
+| `config.py`          | Config: model path, chunk size, prompt    |
+| `requirements.txt`   | Python dependencies                       |
+| `Dockerfile`         | Build instructions for Docker             |
+| `local_data_sources/`| Example documents (e.g., finance.csv)     |
+| `.dockerignore`      | Files ignored when building Docker image  |
+| `.gitignore`         | Files ignored by Git                      |
 
 ## 🚀 Getting Started
 
