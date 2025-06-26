@@ -42,5 +42,5 @@ docker run -p 8501:8501 finance-rag-app
 
 > **Note:**  
 > This setup does **not** persist embeddings, models, or uploaded data between runs.  
-> Each time you start the container, embeddings will be recomputed as
+> Each time you start the container, embeddings will be recomputed as needed.
 
