@@ -8,3 +8,4 @@ certifi
 chromadb
 pypdf
 python-docx
+gpt4all

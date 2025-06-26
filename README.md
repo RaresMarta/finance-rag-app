@@ -28,3 +28,19 @@ pip install -r requirements.txt
 streamlit run main.py
 ```
 
+## 🐳 Docker
+
+Build the image:
+```bash
+docker build -t finance-rag-app .
+```
+
+Run the app:
+```bash
+docker run -p 8501:8501 finance-rag-app
+```
+
+> **Note:**  
+> This setup does **not** persist embeddings, models, or uploaded data between runs.  
+> Each time you start the container, embeddings will be recomputed as
+
